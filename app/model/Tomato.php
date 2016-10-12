@@ -14,17 +14,17 @@ class Tomato extends ToppingDecorator
 
     public function getDescription()
     {
-        return $this->foodItem->getDescription() . ", Tomato";
+        return $this->foodItem->getDescription() . ", " . $this->description;
     }
 
     public function getCost()
     {
-        return $this->foodItem->getCost() + $this->getCost();
+        return $this->foodItem->getCost() + $this->cost;
     }
 
     public function getCalories()
     {
-        return $this->foodItem->getCalories() + $this->getCalories();
+        return $this->foodItem->getCalories() + $this->calories;
     }
 
 }

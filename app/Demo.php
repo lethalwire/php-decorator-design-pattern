@@ -27,5 +27,11 @@ class Demo {
         $cheeseBurger = new Pickles($cheeseBurger);
         
         echo "Cheeseburger : " . $cheeseBurger->getDescription();
+
+        echo "<br />";
+        echo "Cost: " . $cheeseBurger->getCost();
+
+        echo "<br />";
+        echo "Calories : " . $cheeseBurger->getCalories();
     }
 }
