@@ -1,6 +1,6 @@
 {
-  "name": "lethalwire/composer-starter",
-  "description": "A basic composer starter that uses the PSR-4 specification.",
+  "name": "lethalwire/decorator-design-pattern",
+  "description": "A basic example which demonstrates the decorator design pattern..",
   "authors": [
     {
       "name": "CSTom",

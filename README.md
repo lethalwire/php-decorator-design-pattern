@@ -1,2 +1,2 @@
-# composer-starter
-A basic composer starter that uses the PSR-4 specification.
+# Decorator Design Pattern in PHP
+A basic example which demonstrates the decorator design pattern.
